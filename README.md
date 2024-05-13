@@ -3,6 +3,7 @@
 이 저장소는 OpenCV를 활용한 몇가지 간단한 프로젝트를 담고 있습니다.
 
 ## A2_2d_transformation.py
+![h5](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/06c04e4d-d0a2-4a24-b369-6688f8f194bb)
 
 몇가지 명령어를 입력받아 이미지를 이동, 회전, 확대 및 축소 작업을 수행하는 코드를 작성하였습니다.
 이미지의 변환은 각 픽셀값에 변환행렬을 곱하는 것으로 구현되었습니다.
