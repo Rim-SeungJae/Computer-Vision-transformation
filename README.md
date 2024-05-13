@@ -7,6 +7,7 @@
 몇가지 명령어를 입력받아 이미지를 이동, 회전, 확대 및 축소 작업을 수행하는 코드를 작성하였습니다.
 이미지의 변환은 각 픽셀값에 변환행렬을 곱하는 것으로 구현되었습니다.
 가능한 명령어는 아래와 같습니다.
+
 ‘a’ Move to the left by 5 pixels
 ‘d’ Move to the right by 5 pixels
 ‘w’ Move to the upward by 5 pixels
