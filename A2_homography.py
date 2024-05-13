@@ -162,11 +162,11 @@ def compute_homography_ransac(srcP, destP, th):
 
 
 if __name__=="__main__":
-    img1 = cv2.imread('./CV_Assignment_2_images/cv_desk.png', cv2.IMREAD_GRAYSCALE)
-    img2 = cv2.imread('./CV_Assignment_2_images/cv_cover.jpg', cv2.IMREAD_GRAYSCALE)
-    img_hp = cv2.imread('./CV_Assignment_2_images/hp_cover.jpg', cv2.IMREAD_GRAYSCALE)
-    img_d10 = cv2.imread('./CV_Assignment_2_images/diamondhead-10.png', cv2.IMREAD_GRAYSCALE)
-    img_d11 = cv2.imread('./CV_Assignment_2_images/diamondhead-11.png', cv2.IMREAD_GRAYSCALE)
+    img1 = cv2.imread('./cv_desk.png', cv2.IMREAD_GRAYSCALE)
+    img2 = cv2.imread('./cv_cover.jpg', cv2.IMREAD_GRAYSCALE)
+    img_hp = cv2.imread('./hp_cover.jpg', cv2.IMREAD_GRAYSCALE)
+    img_d10 = cv2.imread('./diamondhead-10.png', cv2.IMREAD_GRAYSCALE)
+    img_d11 = cv2.imread('./diamondhead-11.png', cv2.IMREAD_GRAYSCALE)
 
     orb = cv2.ORB_create()
     kp1 = orb.detect(img1, None)

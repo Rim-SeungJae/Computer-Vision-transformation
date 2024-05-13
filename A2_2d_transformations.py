@@ -21,7 +21,7 @@ def get_transformed_image( img, M):
 
 if __name__=="__main__":
 
-    img = cv2.imread('./CV_Assignment_2_images/smile.png', cv2.IMREAD_GRAYSCALE)
+    img = cv2.imread('./smile.png', cv2.IMREAD_GRAYSCALE)
 
     I = np.array([[1,0,0],[0,1,0],[0,0,1]])
     a = np.array([[1,0,0],[0,1,-5],[0,0,1]])
