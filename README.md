@@ -3,8 +3,6 @@
 이 저장소는 OpenCV를 활용한 몇가지 간단한 프로젝트를 담고 있습니다.
 
 ## A2_2d_transformation.py
-![h1](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/9d0e7ca4-01d3-4ff6-93fb-aa91afe032c5)
-![h3](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/be106737-8ff1-47f0-973b-666fd5dfc1cd)
 
 몇가지 명령어를 입력받아 이미지를 이동, 회전, 확대 및 축소 작업을 수행하는 코드를 작성하였습니다.
 이미지의 변환은 각 픽셀값에 변환행렬을 곱하는 것으로 구현되었습니다.
@@ -25,9 +23,12 @@
 ‘Q’ Quit
 
 ## A2_homography.py
-![diamondhead-10](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/b8d3e322-76e9-4506-bd08-ac2a8660167f) | ![diamondhead-11](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/52f80810-65a2-4043-9eb4-3aebb442e56e)
-![h4](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/c9d3265c-1d3d-4b47-94b0-dda4433d4056) |
----|
+![h1](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/9d0e7ca4-01d3-4ff6-93fb-aa91afe032c5)
+![h3](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/be106737-8ff1-47f0-973b-666fd5dfc1cd)
+
+| ![diamondhead-10](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/b8d3e322-76e9-4506-bd08-ac2a8660167f) | ![diamondhead-11](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/52f80810-65a2-4043-9eb4-3aebb442e56e) |
+| ![h4](https://github.com/Rim-SeungJae/Computer-Vision-transformation/assets/50349104/c9d3265c-1d3d-4b47-94b0-dda4433d4056) |
+|---|
 
 두 이미지로부터 feature를 추출하여 각 feature들을 매칭한 뒤 homography matrix를 구할 수 있습니다.
 Feature들을 매칭할 때 단순히 feature간의 해밍 거리를 이용하는 방법(compute_homography 함수)과 RANSAC 알고리즘을 이용하는 방법(compute_homography_ransac) 두가지가 있습니다.
